@@ -1,0 +1,7 @@
+tasks:
+  - init: |
+      python -m venv venv
+      source venv/bin/activate
+      pip install pandas
+      pip install seaborn
+      python manage.py migrate
